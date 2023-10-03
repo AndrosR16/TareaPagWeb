@@ -1,0 +1,58 @@
+body{
+    width: 900px;
+    margin: auto;
+    background-color: #b0f4ff;
+    
+}
+
+h1{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+header li{
+font-size: 125%;
+}
+
+nav li{
+    display: inline-block;
+    padding: 5px;
+}
+
+.barra{
+text-align: center;
+margin-bottom: 0px;
+}
+
+thead tr{
+    background-color: black;
+    color: white;
+
+}
+
+tbody tr:nth-child(even){
+    background-color: white;
+    color: black;
+
+}
+
+.nav-menu:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+
+.nav-menu{
+    padding: 5px 18px;
+    border-radius: 2px;
+    
+}
+
+
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
